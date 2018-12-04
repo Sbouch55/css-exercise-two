@@ -1,5 +1,5 @@
 body {
-  background-color: #ff0000;
+  background-color: ##ffffff;
   color: #0000FF;
   font-size: 16px;
 }
@@ -22,6 +22,23 @@ nav {
 
 .medium-pic {
   width: 70%;
+  css-exercise-two/images/bloc-logo.png
+     
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+p {
+  font-size: 100%;
+  line-height: 2em;
 }
 
 .left, .right {
@@ -46,6 +63,17 @@ li {
 article {
   padding-top: 100px;
 }
+
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: line-through;
+}
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 .container {
   margin: 0 auto;
