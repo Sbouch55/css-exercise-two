@@ -1,5 +1,5 @@
 body {
-  background-color: ##ffffff;
+  background-color: #ffffff;
   color: #0000FF;
   font-size: 16px;
 }
@@ -22,8 +22,7 @@ nav {
 
 .medium-pic {
   width: 70%;
-  css-exercise-two/images/bloc-logo.png
-     
+
 }
 
 h1 {
@@ -65,14 +64,12 @@ article {
 }
 
 a {
-  text-decoration: none;
   text-decoration: underline;
-  text-decoration: line-through;
 }
 
 a:link { color:#0070BB; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
-a:hover { color:#0070BC; } /* mouse over */
+a:hover { color:#a5ddff; } /* mouse over */
 a:active { color:#0070BD; } /* selected */
 
 .container {
